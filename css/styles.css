@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+
+h1{
+font-family: 'PT Serif', serif;
+font-size:2.5em;
+text-align:center;
+color:#fff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+
+}
+.quote{
+color:#ffffff;
+text-align:center;
+vertical-align:middle;
+padding:19% 15% 0 15%;
+}
+
+#quoteblock{
+font-family: 'PT Serif', serif;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+font-size:2em;
+}
+
+#author{
+font-family: 'PT Serif', serif;
+text-align:center;
+color:#fff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+}
