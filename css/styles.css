@@ -1,29 +1,44 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
+.page-container{
+	width:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  min-height: 100%;
+  min-width: 1024px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.text-container{
+	display: inline-block;
+	position: absolute;
+	bottom: 2em;
+	left: 2em;
+	max-width: 50%;
+	color: white;
+	text-decoration: none;
+	font-family: Arimo, Helvetica Neue;
+}
+
+.text-container-inner{
+	display: inline-block;
+	background: rgba(0,0,0,0.4);
+	padding: 2em;
+	border-radius: 1px;
+}
 
 h1{
-font-family: 'PT Serif', serif;
-font-size:2.5em;
-text-align:center;
-color:#fff;
-text-shadow:2px 2px 3px rgba(150,150,150,0.75);
-
-}
-.quote{
-color:#ffffff;
-text-align:center;
-vertical-align:middle;
-padding:19% 15% 0 15%;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
-#quoteblock{
-font-family: 'PT Serif', serif;
-text-shadow:2px 2px 3px rgba(150,150,150,0.75);
-font-size:2em;
-}
-
-#author{
-font-family: 'PT Serif', serif;
-text-align:center;
-color:#fff;
-text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+h2{
+	margin: 0;
+	font-family: Georgia, serif;
+	font-weight: 100;
+	font-size: 1.1em;
 }
