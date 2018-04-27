@@ -1,6 +1,6 @@
 # ao-new-tab
 
-## To install the Chrome Extension locally
+## To install this Chrome extension locally
 1. Download this repo
 2. Unzip it
 3. Navigate to chrome://extensions
