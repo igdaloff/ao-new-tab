@@ -1,1 +1,9 @@
 # ao-new-tab
+
+## To install the Chrome Extension locally
+1. Download this repo
+2. Unzip it
+3. Navigate to chrome://extensions
+4. Expand the Developer dropdown menu and click “Load Unpacked Extension”
+5. Navigate to the unzipped folder you just downloaded and click Ok.
+6. Open a new tab and you should see it in action
