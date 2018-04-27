@@ -23,7 +23,7 @@ fetch('/js/urls.json').then((res) => {
 						var placeOfDayDescription = placeOfDayElement.querySelector('.place-of-the-day-card .js-subtitle-content');
 						var placeOfDayUrl = placeOfDayElement.getAttribute('href');
 
-						$('.page-container').css('background-image', 'url(' + placeOfDayImageSrc + ')');
+						$('.page-container').css('background-image', 'url(https://' + placeOfDayImageSrc + ')');
 						$('h1').html(placeOfDayName);
 						$('h2').html(placeOfDayDescription);
 						$('.page-container').attr('href', 'https://atlasobscura.com' + placeOfDayUrl);
