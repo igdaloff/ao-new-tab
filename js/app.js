@@ -25,7 +25,7 @@ fetch('/js/urls.json').then((res) => {
 						$.get('https://atlasobscura.com' + placeOfDayUrl, function(response) {
 				  		var mainImage = $(response).find('.gallery-image-container')[0];
 				  		var mainImageUrl = $(mainImage).attr('data-lightbox-src');
-				  		$('.page-container').css('background-image', 'url(https:' + mainImageUrl + ')');
+				  		$('.page-container').css('background-image', 'url(' + mainImageUrl + ')');
 						});
 
 						$('h1').html(placeOfDayName);
